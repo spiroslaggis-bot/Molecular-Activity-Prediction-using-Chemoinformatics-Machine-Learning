@@ -12,7 +12,7 @@ The dataset exhibited severe class imbalance (58.1% Not Active vs. 16% Strongly 
 * **Sampling:** Addressed using a custom stratified sampling approach combining oversampling of the minority class and undersampling of the majority class.
 * **Dimensionality Challenge:** Standard distance metrics (like Euclidean) and clustering (PCA, K-Means) fail on high-dimensional binary arrays. 
 * **Feature Selection Pipeline:** Instead of a single method, a consensus approach was used to extract the most critical substructures:
-  1. Statistical Testing ($\chi^2$)
+  1. Statistical Testing 
   2. Association Rule Mining (Apriori)
   3. Random Forest Feature Importance
   4. Mutual Information (Information Gain)
